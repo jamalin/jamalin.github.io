@@ -9,8 +9,6 @@ published: true
 
 <link rel="stylesheet" href="/assets/blogutil.css">
 
-## Overview
----
 ![Figure]({{"assets/images/電腦視覺/Pasted image 20240724194354.png"|center|relative_url}})
 <div class="info-div">
 Given an exposure sequence as shown above, <b>exposure fusion</b> is a technique to combine the desired portion from each image. For example, in the normal exposure (shown in the middle) we fixed the saturated region by combining the information from the lower exposure (shown on the left). Basically what we are doing is HDR merging in the pixel domain instead of the radiance domain. Since only merging is involve, no calibration nor tonemapping is involved.
@@ -84,5 +82,5 @@ Naive blending will produce seams where there are sharp variations in weight map
 
 ## Reference
 ---
-*Exposure Fusion*
+*Exposure Fusion*<br>
 Tom Mertens, Jan Kautz, and Frank Van Reeth
