@@ -3,6 +3,7 @@ layout: post
 title: Exposure Fusion
 category: [computational photography]
 tags: [fusion, hdr]
+date: 2024-10-02 23:58:00 +/-0000
 math: true
 published: true
 ---
