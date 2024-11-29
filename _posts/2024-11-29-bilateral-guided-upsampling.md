@@ -37,10 +37,13 @@ To handle color inputs and outputs, we could use a 5D bilateral grid, which stor
 We use a 3D grid, where the z coordinate corresponds to luminance, but within each cell, we store a 3x4 affine matrix (1x4 for operators that map color to gray).
 </div>
 -*Bilateral Guided Upsampling* p03
+
 ###### gray to gray
 $1 \times 2 \ \textrm{matrix}$
+
 ###### color to gray
 $1 \times 4 \ \textrm{matrix}$
+
 ###### color to color
 $3 \times 4 \ \textrm{matrix}$
 
