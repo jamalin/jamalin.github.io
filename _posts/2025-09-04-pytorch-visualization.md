@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PyTorch Visualization
+title: Neural Network Visualization
 category: [deep learning]
 tags: [pytorch, visualization]
 date: 2025-09-04 23:32:00 +/-0000
